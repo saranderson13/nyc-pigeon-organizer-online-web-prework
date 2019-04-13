@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
       birds.collect { |bird_name| bird_array << bird_name }
       bird_array.uniq!
       bird_array.each do |bird_name|
-        pigeon_list[bird_name][attribute]
+        pigeon_list[bird_name]
         if pigeon_list[bird_name] == nil
           pigeon_list[bird_name][attribute] = attribute.to_s
           binding.pry
