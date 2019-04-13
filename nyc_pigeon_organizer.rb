@@ -15,8 +15,9 @@ def nyc_pigeon_organizer(data)
         if pigeon_list[bird_name] == nil
           pigeon_list[bird_name] = [attribute]
         end
-        binding.pry
+        # binding.pry
       end
+      binding.pry
     end
   end
   
