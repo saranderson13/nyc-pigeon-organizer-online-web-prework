@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
       birds.collect do |bird_name|
         bird_array << bird_name
       end
-      
+      bird_array.uniq!
     end
   end
   
