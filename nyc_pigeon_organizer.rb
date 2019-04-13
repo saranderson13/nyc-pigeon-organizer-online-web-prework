@@ -18,10 +18,8 @@ def nyc_pigeon_organizer(data)
           pigeon_list[bird_name][attribute_type] = attribute.to_s
           # binding.pry
         end
-        binding.pry
       end
-      
-      # binding.pry
+      binding.pry
     end
     
   end
