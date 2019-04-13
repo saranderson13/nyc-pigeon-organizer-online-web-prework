@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
       bird_array.each { |bird_name| pigeon_list[bird_name] = {} }
       # binding.pry
       pigeon_list.each do |bird, bird_info|
-        pigeon_list[bird][attribute_type] = attribute.to_s
+        pigeon_list[bird][attribute_type] = [attribute.to_s]
         # binding.pry
       end
     end
