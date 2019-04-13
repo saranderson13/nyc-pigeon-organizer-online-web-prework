@@ -14,10 +14,11 @@ def nyc_pigeon_organizer(data)
       bird_array.each do |bird_name|
         if pigeon_list[bird_name] == nil
           pigeon_list[bird_name] = attribute.to_s
+          binding.pry
         end
         # binding.pry
       end
-      binding.pry
+      # binding.pry
     end
   end
   
