@@ -15,6 +15,7 @@ def nyc_pigeon_organizer(data)
     pigeon_list.each do |bird_name, bird_info|
       information.each do |attribute, birds|
         if birds.include?(bird_name)
+          
           binding.pry
         end
         # binding.pry
