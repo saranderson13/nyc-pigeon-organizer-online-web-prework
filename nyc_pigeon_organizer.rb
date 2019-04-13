@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
   # CREATE HASH CONSISTING OF A NESTED HASH FOR EACH BIRD.
   data.each do |attribute_type, information|
     information.each do |attribute, birds|
-      bird_array = birds.collect do |bird_name| 
+      birds.collect do |bird_name| 
         bird_name unless bird_array.include?(bird_name)
         binding.pry
       end
