@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
       bird_array = birds.collect do |bird_name| 
         bird_name unless bird_array.include?(bird_name)
         binding.pry
-      }
+      end
       bird_array.each { |bird_name| pigeon_list[bird_name] = {} }
     end
   end
