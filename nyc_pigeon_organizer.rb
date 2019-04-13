@@ -11,13 +11,13 @@ def nyc_pigeon_organizer(data)
     information.each do |attribute, birds|
       birds.collect { |bird_name| bird_array << bird_name }
       bird_array.uniq!
-      bird_array.each do |bird_name|
-        pigeon_list[bird_name] = {}
-        # binding.pry
-      end
+      bird_array.each { |bird_name| pigeon_list[bird_name] = {} }
       # binding.pry
+      pigeon_list.each do |bird, bird_info|
+        binding.pry
+      end
     end
-    binding.pry
+    # binding.pry
   end
   
   pigeon_list
