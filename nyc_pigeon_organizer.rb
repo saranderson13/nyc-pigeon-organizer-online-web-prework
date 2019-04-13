@@ -18,7 +18,7 @@ def nyc_pigeon_organizer(data)
           if pigeon_list[bird_name][attribute_type] == nil
             pigeon_list[bird_name][attribute_type] = [attribute.to_s]
           else
-            pigeon_list[bird_name][attribute_type] << [attribute.to_s]
+            pigeon_list[bird_name][attribute_type] << attribute.to_s
           end
           # binding.pry
         end
