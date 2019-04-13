@@ -12,9 +12,19 @@ def nyc_pigeon_organizer(data)
       # binding.pry
       bird_array.each { |bird_name| pigeon_list[bird_name] = {} }
     end
-    binding.pry
+    pigeon_list.each do |bird_name, bird_info|
+      information.each do |attribute, birds|
+        if birds.include?(bird_name)
+          binding.pry
+        end
+        # binding.pry
+      end
+      
+      # binding.pry
+    end
+    
   end
-  binding.pry
+  # binding.pry
   pigeon_list
   
   
