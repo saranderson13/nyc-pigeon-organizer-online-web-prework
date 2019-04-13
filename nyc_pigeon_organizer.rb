@@ -25,9 +25,9 @@ def nyc_pigeon_organizer(data)
       end
       # binding.pry
     end
-    binding.pry
+    # binding.pry
   end
-  # binding.pry
+  binding.pry
   pigeon_list
   
   
