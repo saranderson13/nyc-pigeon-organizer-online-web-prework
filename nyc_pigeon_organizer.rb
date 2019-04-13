@@ -14,6 +14,7 @@ def nyc_pigeon_organizer(data)
       end
       bird_array.uniq!
     end
+    binding.pry
   end
   
   pigeon_list
