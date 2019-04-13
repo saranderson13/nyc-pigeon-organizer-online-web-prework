@@ -15,10 +15,10 @@ def nyc_pigeon_organizer(data)
       # binding.pry
       pigeon_list.each do |bird, bird_info|
         pigeon_list[bird][attribute_type] = attribute.to_s
-        binding.pry
+        # binding.pry
       end
     end
-    # binding.pry
+    binding.pry
   end
   
   pigeon_list
