@@ -9,6 +9,7 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute_type, information|
     information.each do |attribute, birds|
       bird_array = birds.collect { |bird_name| bird_name }
+      binding.pry
       bird_array.each { |bird_name| pigeon_list[bird_name] = {} }
     end
   end
