@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
   # ITERATE OVER NEW PIGEON_LIST HASH
   # ITERATE OVER ORIGINAL PIGEON_DATA HASH TO COLLECT ANY INFORMATION
   # CORRESPONDING TO THE GIVEN BIRD
-  pigeon_list.map do |bird_name, bird_info|
+  pigeon_list.each do |bird_name, bird_info|
     data.each do |attribute_type, list_of_attributes|
       list_of_attributes.each do |attribute, birds|
         if birds.include?(bird_name)
@@ -25,5 +25,5 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  # pigeon_list
+  pigeon_list
 end
