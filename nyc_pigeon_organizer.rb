@@ -16,9 +16,9 @@ def nyc_pigeon_organizer(data)
       information.each do |attribute, birds|
         if birds.include?(bird_name)
           pigeon_list[bird_name][attribute_type] = attribute.to_s
-          binding.pry
+          # binding.pry
         end
-        # binding.pry
+        binding.pry
       end
       
       # binding.pry
